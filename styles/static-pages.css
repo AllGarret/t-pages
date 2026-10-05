@@ -108,14 +108,12 @@ a:focus-visible {
   line-height: 1;
 }
 
-.header-link,
 .footer-links a {
   color: var(--muted);
   font-size: 14px;
   text-decoration: none;
 }
 
-.header-link:hover,
 .footer-links a:hover,
 .footer-links a[aria-current="page"] {
   color: var(--teal-deep);
@@ -239,32 +237,6 @@ h1 {
 
 .success-content .lead {
   margin-bottom: 28px;
-}
-
-.button {
-  display: inline-flex;
-  min-height: 48px;
-  padding: 0 22px;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid transparent;
-  border-radius: 10px;
-  font-size: 15px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: background-color 140ms ease, transform 140ms ease;
-}
-
-.button--primary {
-  color: #ffffff;
-  background: var(--teal);
-  box-shadow: 0 5px 14px rgb(18 110 98 / 16%);
-}
-
-.button--primary:hover {
-  transform: translateY(-1px);
-  color: #ffffff;
-  background: var(--teal-deep);
 }
 
 .site-footer--centered {
